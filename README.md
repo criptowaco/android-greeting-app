@@ -12,7 +12,7 @@ The app displays a greeting message with a customizable name on a full cyan back
 
 ## Screenshot
 
-![App Screenshot](screenshot.png)
+<img src="screenshot.png" alt="App Screenshot" width="400"/>
 
 ## How to Run
 
