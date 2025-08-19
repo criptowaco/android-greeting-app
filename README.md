@@ -6,7 +6,7 @@ The app displays a greeting message with a customizable name on a full cyan back
 ## Features
 
 - Fully implemented with **Jetpack Compose**.
-- Flexible `Greeting` function to change the displayed name.
+- Flexible Greeting function to change the displayed name.
 - Clean and minimal design with a full-screen cyan background.
 - Simple, readable, and reusable code structure.
 
@@ -16,11 +16,7 @@ The app displays a greeting message with a customizable name on a full cyan back
 
 ## How to Run
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/criptowaco/android-greeting-app.git
-
+1. Clone the repository: `git clone https://github.com/criptowaco/android-greeting-app.git`
 2. Open the project in Android Studio
 3. Build and run the app on an emulator of physical device.
 
