@@ -3,8 +3,6 @@
 A simple Android app built with **Kotlin** and **Jetpack Compose**.  
 The app displays a greeting message with a customizable name on a full cyan background.
 
----
-
 ## Features
 
 - Fully implemented with **Jetpack Compose**.
@@ -12,15 +10,9 @@ The app displays a greeting message with a customizable name on a full cyan back
 - Clean and minimal design with a full-screen cyan background.
 - Simple, readable, and reusable code structure.
 
----
-
 ## Screenshot
 
 ![App Screenshot](screenshot.png)
-
-> Replace `screenshot.png` with the actual image you capture from your emulator or device.
-
----
 
 ## How to Run
 
@@ -32,14 +24,10 @@ git clone https://github.com/criptowaco/android-greeting-app.git
 2. Open the project in Android Studio
 3. Build and run the app on an emulator of physical device.
 
----
-
 ## Usage
 
 - The greeting message is defined in MainActivity.kt
 - You can change the displayed name by editing: GreetingScreen(name = "Your Name")
-
----
 
 ## Technology Stack
 
@@ -47,8 +35,6 @@ git clone https://github.com/criptowaco/android-greeting-app.git
 - Jetpack Compose
 - Android Studio
 - Material3
-
----
 
 ## License
 
