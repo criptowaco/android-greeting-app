@@ -18,27 +18,41 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            GreetingScreen(name = "Joaquín")
+            // Change this line to display the desired greeting
+            //GreetingScreen(message = christmasGreeting("Hugo"))
+            GreetingScreen(message = birthdayGreeting("Hugo", 3))
         }
     }
 }
 
 @Composable
-fun GreetingScreen(name: String) {
+fun GreetingScreen(message: String) {
     GreetingCardTheme {
-        Surface(modifier = Modifier.fillMaxSize(), color = Color.Cyan) {
-            Greeting(name = name)
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = Color.Cyan
+        ) {
+            Text(
+                text = message,
+                modifier = Modifier.padding(24.dp)
+            )
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(text = "Hi, my name is $name!", modifier = modifier.padding(24.dp))
+// Returns a Christmas greeting
+fun christmasGreeting(name: String): String {
+    return "Merry Christmas, $name!\n...and Happy New Year!"
+}
+
+// Returns a Birthday greeting
+fun birthdayGreeting(name: String, age: Int): String {
+    return "Happy Birthday, $name!\nYou are now $age years old!"
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    GreetingScreen(name = "Joaquín")
+    // GreetingScreen(message = christmasGreeting("Preview User"))
+    GreetingScreen(message = birthdayGreeting("Preview User", 3))
 }
