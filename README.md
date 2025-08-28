@@ -20,7 +20,7 @@ This project was created to practice **Android development with Kotlin** and **J
 
 **Birthday Greeting**
 
-<img src="screenshot.png" alt="Birthday Greeting Screenshot" width="400"/>
+<img src="screenshot1.png" alt="Birthday Greeting Screenshot" width="400"/>
 
 **Christmas Greeting**
 
