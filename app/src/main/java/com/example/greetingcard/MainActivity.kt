@@ -38,7 +38,6 @@ class MainActivity : ComponentActivity() {
                     // GreetingText(message = christmasGreeting("Hugo"), from = "From Dad")
                 }
             }
-
         }
     }
 }
@@ -73,7 +72,6 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
                 .padding(top = 16.dp, end = 16.dp)
                 .align(alignment = Alignment.End)
         )
-
     }
 }
 
