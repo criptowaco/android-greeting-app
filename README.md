@@ -19,9 +19,11 @@ This project was created to practice **Android development with Kotlin** and **J
 ## Screenshot
 
 **Birthday Greeting**
+
 <img src="screenshot.png" alt="Birthday Greeting Screenshot" width="400"/>
 
 **Christmas Greeting**
+
 <img src="screenshot2.png" alt="Christmas Greeting Screenshot" width="400"/>
 
 ## How to Run
